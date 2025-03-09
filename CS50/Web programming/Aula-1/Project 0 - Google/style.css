@@ -1,0 +1,153 @@
+
+#search {
+    width: avw;
+    height: 12px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    outline: none;
+    text-align: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10vh;
+    display: block;
+}
+
+#search_advanced {
+    width: 50vw;
+    height: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    outline: none;
+    text-align: left;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 10vh;
+    display: block;
+}
+
+#TextoAvançado_logo {
+    color: red;
+    position: absolute;
+    top: 70px; 
+    left: 10px; 
+    width: 100px; 
+    height: 10px; 
+}
+
+#Textos_avançados {
+    width: 50vw; 
+    height: 40px; 
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    outline: none;
+    text-align: center;
+    margin: 10vh auto 0 auto; 
+    display: block;
+}
+
+
+
+#button {
+    width: 10vw;
+    height: 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10vh;
+    display: block;
+}
+
+#googleLogo{
+    width: 30vw;
+    height: px;
+    margin: 0 auto;
+    display: block;
+}
+
+#googleLogo_small{
+    width: 10vw;
+    height: auto; 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+}
+
+#googleImage{
+    width: 30vw;
+    height: px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5vh;
+
+    
+}
+
+#advanced_button {
+    width: 10vw;
+    height: 20px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    background-color: #f1efef;
+    outline: none;
+    margin-right: auto;
+    display: block;
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#lucky_button {
+    width: 6vw;
+    height: 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+
+#image_button {
+    width: 10vw;
+    height: 20px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    background-color: #f1efef;
+    outline: none;
+    margin-right: auto;
+    display: block;
+
+    position: absolute;
+    top: 35px;
+    right: 10px;
+}
+
+#search_button {
+    width: 10vw;
+    height: 20px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    background-color: #ececec;
+    outline: none;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10vh;
+    display: block;
+
+    position: absolute;
+    top: 1px;
+    right: 5px;
+}

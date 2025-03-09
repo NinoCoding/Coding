@@ -1,0 +1,56 @@
+<!-- 
+    Project Requirements - Google Search Page
+
+    1. Website Structure:
+        - The website must have at least three pages:
+            1. index.html → Main Google Search page
+            2. image.html → Google Image Search page
+            3. advanced.html → Google Advanced Search page
+        - The main page (index.html) should have links in the upper-right corner to access Image Search and Advanced Search.
+        - The other two pages should have a link in the upper-right corner to return to the main Google Search page.
+
+    2. Functionality:
+        - On the main search page, users should be able to enter a query, click “Google Search,” and be taken to the Google search results.
+        - The search bar should be centered with rounded corners, and the buttons should follow Google’s style.
+        - The Image Search page should allow users to enter a query and be redirected to Google Image search results.
+        - The Advanced Search page should contain four fields for refined search options:
+            1. "Find pages with... all these words:"
+            2. "Find pages with... this exact word or phrase:"
+            3. "Find pages with... any of these words:"
+            4. "Find pages with... none of these words:"
+        - The Advanced Search fields should be stacked vertically and left-aligned.
+        - The "Advanced Search" button should be blue with white text, following Google’s design.
+
+    3. "I'm Feeling Lucky" Button:
+        - The main search page should include an "I'm Feeling Lucky" button.
+        - Clicking it should take the user directly to the first Google search result, bypassing the regular results page.
+
+    4. Style and Design:
+        - The CSS should closely resemble Google’s aesthetic, ensuring a clean, simple, and intuitive design.
+
+    Note: The "I'm Feeling Lucky" button may trigger a redirect notice due to Google's security measures. This is expected behavior.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+
+        <link rel="icon" href="googleIcon.png" type="image/png">
+        <link rel="shortcut icon" href="googleIcon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="image_src" href="Project 0 - Google/googlelogo.png">        
+
+    </head>
+    <body>
+        <img id="googleLogo" src="googlelogo.png" alt="Google Logo">
+        <form action="https://www.google.com/search">
+            <input id="search" type="text" name="q">
+            <input id="button" type="submit" value="Search">
+            <input id="image_button" type="submit" value="Image Search" formaction="image.html">
+            <input id="advanced_button" type="submit" value="Advanced Search" formaction="advanced.html">
+            <input id="lucky_button" type="button" value="I'm feeling Lucky" onclick="window.location.href='https://doodles.google/'">
+        </form>
+    </body>
+</html>
